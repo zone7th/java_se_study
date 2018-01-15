@@ -12,6 +12,13 @@ public class Person {
         this.sex = sex;
         this.tel = tel;
     }
+    
+
+    public Person() {
+        super();
+    }
+
+
 
     public Addresses getAddes() {
         return addes;

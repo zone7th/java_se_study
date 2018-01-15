@@ -8,6 +8,12 @@ public class Address {
         this.addType = addType;
         this.place = place;
     }
+    
+    
+    public Address() {
+        super();
+    }
+
 
     public String getAddType() {
         return addType;

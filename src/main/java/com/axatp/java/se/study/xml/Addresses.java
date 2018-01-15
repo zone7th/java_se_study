@@ -5,6 +5,11 @@ import java.util.List;
 
 public class Addresses {
     private List<Address> listAdd;
+    
+    
+    public Addresses() {
+        super();
+    }
 
     public Addresses(List<Address> listAdd) {
         this.listAdd = listAdd;

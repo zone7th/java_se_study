@@ -14,6 +14,10 @@ public class Persons {
     }
 
 
+    public Persons() {
+        super();
+    }
+
 
     public String getType() {
         return type;
