@@ -1,4 +1,4 @@
-package com.axatp.java.se.study.log;
+package com.axatp.java.se.study.util;
 
 import java.io.PrintWriter;
 import java.io.Serializable;
@@ -44,10 +44,10 @@ public class LogThrowableInfo implements Serializable
     {
         try
         {
-            throw new Exception();
+            throw new RuntimeException("日志工具类异常");
         }
         catch (Exception e)
-        {
+        {	
             this.throwable = e;
         }
     }
